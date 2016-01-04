@@ -51,7 +51,7 @@ public class Gif extends PImage implements PConstants, Runnable {
 	// last time the frame changed
 	private int lastJumpTime;
 	// version
-	private static String version = "2.4";
+	private static String version = "2.3";
 
 	public Gif(PApplet parent, String filename) {
 		// this creates a fake image so that the first time this
@@ -83,7 +83,6 @@ public class Gif extends PImage implements PConstants, Runnable {
 	public void dispose() {
 		// fin
 		// System.out.println("disposing");
-		parent.unregisterMethod("dispose", this);
 		stop();
 		runner = null;
 	}
@@ -135,7 +134,7 @@ public class Gif extends PImage implements PConstants, Runnable {
 	}
 
 	/*
-	 * creates an input stream using processings createInput() method to read
+	 * creates an input stream using processings openStream() method to read
 	 * from the sketch data-directory
 	 */
 	private static InputStream createInputStream(PApplet parent, String filename) {
@@ -317,14 +316,6 @@ public class Gif extends PImage implements PConstants, Runnable {
 			// set the jump time
 			lastJumpTime = parent.millis();
 		}
-	}
-	/**	
-	 * Retun the number of frame of the gif
-	 * 
-	 */
-	public int getGifLength() {
-		return frames.length;
-		
 	}
 
 }

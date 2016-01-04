@@ -345,12 +345,9 @@ public class GifDecoder {
 					status = STATUS_FORMAT_ERROR;
 				}
 			}
+                        try { is.close(); } catch (IOException e) { }
 		} else {
 			status = STATUS_OPEN_ERROR;
-		}
-		try {
-			is.close();
-		} catch (IOException e) {
 		}
 		return status;
 	}
