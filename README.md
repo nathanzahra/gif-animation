@@ -5,15 +5,11 @@ GifAnimation is a [Processing][1] library to play and export GIF animations. The
 
 ## DOWNLOAD
 
-[gifAnimation.zip][3] (compatible with Processing 1.x and 2.x)
+[gifAnimation.zip][3] (compatible only with Processing 3.x)
 
 ##  INSTALLATION:
-### Processing 1.x
-Download and unzip the gifAnimation.zip and copy the gifAnimation-folder into your processing libraries folder.
-### Processing 2.x
-Same as Processing 1.x **OR** use the built-in library-browser in the IDE
 ### Processing 3.x
-Same as Processing 1.x
+Download and unzip the gifAnimation.zip and copy the gifAnimation-folder into your processing libraries folder.
 
 ## USAGE:
 
@@ -193,6 +189,6 @@ the sketch folder. Returns true if saving the file was successful, false if not.
 
    [1]: http://www.processing.org
    [2]: http://www.fmsware.com/stuff/gif.html
-   [3]: http://www.extrapixel.ch/processing/gifAnimation/gifAnimation.zip
+   [3]: https://github.com/nathanzahra/gif-animation/blob/master/gifAnimation/install/gifAnimation.zip?raw=true
    [4]: http://extrapixel.ch/processing/gifAnimation/applet/
   
