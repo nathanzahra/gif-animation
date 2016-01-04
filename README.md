@@ -12,6 +12,8 @@ GifAnimation is a [Processing][1] library to play and export GIF animations. The
 Download and unzip the gifAnimation.zip and copy the gifAnimation-folder into your processing libraries folder.
 ### Processing 2.x
 Same as Processing 1.x **OR** use the built-in library-browser in the IDE
+### Processing 3.x
+Same as Processing 1.x
 
 ## USAGE:
 
